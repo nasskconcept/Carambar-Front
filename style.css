@@ -1,0 +1,80 @@
+body {
+  font-family: 'Comic Neue', 'Comic Sans MS', cursive;
+  background: linear-gradient(135deg, #fff200 50%, #ff69b4 100%);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  background: #fff8dc;
+  border-radius: 32px;
+  box-shadow: 0 8px 32px #d8002740;
+  padding: 2em 3em 3em 3em;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+  color: #d80027;
+  font-size: 2.4em;
+  letter-spacing: 2px;
+  margin-bottom: 1.2em;
+  text-shadow: 2px 2px 0 #fff200, 4px 4px 0 #ff69b4;
+}
+#blague-box {
+  background: #fff20077;
+  border-radius: 20px;
+  margin-bottom: 2em;
+  padding: 1.2em 1em;
+  box-shadow: 0 2px 8px #d8002715;
+  min-height: 70px;
+  transition: all .4s;
+border-left: 8px double #ff69b4;
+border-right: 8px double #ff69b4;
+
+}
+#question {
+  color: #d80027;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: .6em;
+}
+#answer {
+  color: #653900;
+  font-style: italic;
+  font-size: 1em;
+  transform: rotate(180deg);
+  display: inline-block;
+}
+
+
+button {
+  background: linear-gradient(90deg, #d80027 60%, #fff200 100%);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.3em;
+  font-family: 'Luckiest Guy', cursive;
+  padding: .8em 2.4em;
+  cursor: pointer;
+  box-shadow: 0 4px 20px #d8002725;
+  margin-top: 1em;
+  transition: transform .12s, box-shadow .2s;
+}
+button:hover {
+  background: linear-gradient(90deg, #b4001b 60%, #fff64f 100%);
+  color: #d80027;
+  transform: scale(1.08) rotate(-3deg);
+  box-shadow: 0 6px 32px #d8002730;
+}
+
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(20px);}
+  100% { opacity: 1; transform: translateY(0);}
+}
+.show-blague {
+  animation: fadeUp 0.5s;
+}
