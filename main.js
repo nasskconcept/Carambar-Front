@@ -1,4 +1,5 @@
-const API_URL = "http://localhost:3000/api/v1/blagues/random";
+const API_URL =
+  "https://carambar-back-1-490f.onrender.com/api/v1/blagues/random";
 
 async function getRandomBlague() {
   const questionBox = document.getElementById("question");
