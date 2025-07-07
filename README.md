@@ -4,6 +4,8 @@ Landing page web pour tirer des blagues aléatoires façon Carambar, avec un des
 
 <img src="https://github.com/user-attachments/assets/45f0c382-cdcd-4d91-ba77-762d941921d2" alt="Capture" width="600" />
 
+Slide projet : https://www.canva.com/design/DAGsY-RWS3U/rHwWDBgDpzKqdeH_2ZCWyQ/edit?utm_content=DAGsY-RWS3U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 
 🌟 Démo en ligne
 Site GitHub Pages : https://nasskconcept.github.io/Carambar-Front/
