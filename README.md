@@ -1,5 +1,9 @@
 Carambar & Co — Landing Page
 Landing page web pour tirer des blagues aléatoires façon Carambar, avec un design fun et connecté à l’API Carambar déployée sur Render.
+<h3>Aperçu</h3>
+
+<img src="https://github.com/user-attachments/assets/45f0c382-cdcd-4d91-ba77-762d941921d2" alt="Capture" width="600" />
+
 
 🌟 Démo en ligne
 Site GitHub Pages : https://nasskconcept.github.io/Carambar-Front/
